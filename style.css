@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(157, 149, 149, 0.333);
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(87, 204, 87);
+    position: relative;
+}
