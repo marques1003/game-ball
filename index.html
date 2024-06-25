@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Jogo do Sor
-     </title>
+    <title>Carrom Game - att sor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container"></div>
+    <div id="game-container">
+        <div id="carrom-board"></div>
+        <div id="controls">
+            <button id="reset">Reset Game</button>
+        </div>
+    </div>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="script.js"></script>
 </body>
